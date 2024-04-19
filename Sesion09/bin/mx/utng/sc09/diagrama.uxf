@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>170</x><y>20</y><w>220</w><h>170</h></coordinates><panel_attributes>Vehiculo
+--
+-combustible:Combustible
+-llantas:Llanta[4]
+-marca:String
+-anioFabricacion:Int
+--
++&lt;&lt;Constructor&gt;&gt;Vehiculo()
++getCombustible():combustible
++setCombustible(Combustible):void
+--
++colocarLlantas(Llanta, Llanta, Llanta, Llanta):void
++llenarTanque():void
++avanzar():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>220</y><w>160</w><h>100</h></coordinates><panel_attributes>Combustible
+--
+-litrosMaximos:short
+-litrosActuales:short
+--
++usar():void
+getter y setters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>180</y><w>150</w><h>130</h></coordinates><panel_attributes>Llanta
+--
+-ancho:float
+-diametro:float
+-presion:float
+--
++rodar():void
+.--getters y setters
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>370</y><w>100</w><h>40</h></coordinates><panel_attributes>Composicion
+--
+_+_ main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>30</y><w>100</w><h>210</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;190;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>30</y><w>110</w><h>170</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>90;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>310</y><w>160</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;140;60</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>180</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>300</y><w>190</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>170;10;10;70</additional_attributes></element></diagram>

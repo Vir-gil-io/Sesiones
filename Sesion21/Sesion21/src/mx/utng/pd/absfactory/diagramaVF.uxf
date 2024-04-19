@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>410</x><y>250</y><w>230</w><h>80</h></coordinates><panel_attributes>VehiculoLujoFactory
+--
+--
+&lt;&lt;Override&gt;&gt;+getAuto():Auto
+&lt;&lt;Override&gt;&gt;+getCamioneta():Camioneta</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>130</y><w>140</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;120;120</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>110</y><w>120</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>100;10;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>50</y><w>160</w><h>70</h></coordinates><panel_attributes>FactoryTest
+--
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>50</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;30;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>110</y><w>40</w><h>160</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>20;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>0</y><w>460</w><h>270</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;250;120;20;340;10;440;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>80</y><w>190</w><h>100</h></coordinates><panel_attributes>/VehiculoFactory/
+--
+-VEHICULO_LUJO:String
+-VEHICULO_ECONOMICO:String
+--
++getAuto():Auto
++getCamioneta():Camioneta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>250</y><w>230</w><h>80</h></coordinates><panel_attributes>VehiculoEconomicoFactory
+--
+--
+&lt;&lt;Override&gt;&gt;+getAuto():Auto
+&lt;&lt;Override&gt;&gt;+getCamioneta():Camioneta</panel_attributes><additional_attributes></additional_attributes></element></diagram>

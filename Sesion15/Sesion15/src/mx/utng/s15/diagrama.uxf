@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>80</x><y>250</y><w>160</w><h>130</h></coordinates><panel_attributes>Persona
+bg=blue
+--
+-nombre:String
+-apellidos:String
+-estatura::float
+--
+&lt;&lt;Constructor&gt;&gt;+Persona(String, String, float)
++getNombre():String
++getEstatura():float
++compareTo(Persona):int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>250</x><y>50</y><w>140</w><h>90</h></coordinates><panel_attributes>Comparable
+bg=red
+--
+compareTo(Object):int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>60</y><w>230</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;.
+realiza</panel_attributes><additional_attributes>210;10;10;190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>470</y><w>140</w><h>50</h></coordinates><panel_attributes>PersonaTest
+bg=orange
+--
+--
+_+main8String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>320</y><w>120</w><h>170</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;10;100;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>270</y><w>200</w><h>60</h></coordinates><panel_attributes>ComparadorPersonas
+--
+--
++compare(Persona, Persona):int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>270</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;10;110;30</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>340</x><y>140</y><w>160</w><h>100</h></coordinates><panel_attributes>Comparator
+--
+compare(Object, Object)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>150</y><w>60</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>40;10;10;120</additional_attributes></element></diagram>

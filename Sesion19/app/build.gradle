@@ -1,0 +1,12 @@
+/*
+ * @Author: Gilberto Fabián Correa González
+ * Group: GDS0624
+ * Date: 24/02/2024
+ */
+plugins {
+    id 'application'
+}
+
+application{
+    mainClass= 'mx.utng.s19.Reto01'
+}

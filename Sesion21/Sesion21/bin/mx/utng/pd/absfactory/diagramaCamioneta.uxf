@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLInterface</id><coordinates><x>230</x><y>30</y><w>180</w><h>100</h></coordinates><panel_attributes>Camioneta
+--
++getNombre():String
++getCaracteristicas():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>250</y><w>270</w><h>80</h></coordinates><panel_attributes>CamionetaEconomico
+--
+--
+&lt;&lt;Constructor&gt;&gt;+CamionetaEconomica():String
+&lt;&lt;Override&gt;&gt;+getNombre(String):Void
+&lt;&lt;Override&gt;&gt;+getNombre(String):Void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>250</y><w>240</w><h>80</h></coordinates><panel_attributes>CamionetaLujosa
+--
+--
+&lt;&lt;Constructor&gt;&gt;+CamionetaLujosa():String
+&lt;&lt;Override&gt;&gt;+getNombre(String):Void
+&lt;&lt;Override&gt;&gt;+getNombre(String):Void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>40</y><w>220</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;40;200;210</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>40</y><w>210</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>190;10;50;50;10;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>50</y><w>160</w><h>70</h></coordinates><panel_attributes>CamionetaTest
+--
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>40</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>110</y><w>40</w><h>160</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>20;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>0</y><w>460</w><h>270</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;250;120;20;340;10;440;50</additional_attributes></element></diagram>

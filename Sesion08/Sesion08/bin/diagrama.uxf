@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>
+bg= magenta
+Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>130</y><w>160</w><h>70</h></coordinates><panel_attributes>BloquesInicializacion
+bg=magenta
+fg=white
+--
+--
+_+main(args: String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>260</y><w>160</w><h>190</h></coordinates><panel_attributes>Alumno
+bg=green
+fg=black
+--
+-curso:String
+-sesion:byte
+-objetivo:String
+--
++getCurso():String
++getSesion():byte
++getObjetivo():String
+
++setCurso(String):void
++setSesion(byte):void
++setObjetivo(String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>160</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;100;30;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>260</y><w>210</w><h>190</h></coordinates><panel_attributes>Automovil
+bg=orange
+fg=black
+--
+-marca:String
+-modelo:String
+-anioFabricacion:int
+-kilometraje:int
+--
++Automovil(String, String, int, int)
++hashCode():int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>130</y><w>160</w><h>70</h></coordinates><panel_attributes>Fabrica
+bg=cyan
+fg=white
+--
+--
+_+main(args: String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>160</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;100;40;10</additional_attributes></element></diagram>

@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>140</y><w>180</w><h>80</h></coordinates><panel_attributes>Gobierno
+--
+_-gobierno:Gobierno_
+--
+&lt;&lt;Constructor&gt;&gt;-Gobierno()
+_+getGobierno():Gobierno_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>160</y><w>90</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;70;10;70;40;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>320</y><w>130</w><h>70</h></coordinates><panel_attributes>AdultoMayor
+--
+--
+_main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>210</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element></diagram>
